@@ -1,5 +1,8 @@
-.text {
+html {
   font-family: Georgia, serif;
+}
+
+.text {
   color: #fff;
   background-color: #495562;
 }
