@@ -39,7 +39,7 @@ img {
 
   .text {
     position: absolute;
-    bottom: 103px;
+    bottom: 0px;
     background-color: transparent;
     background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
   }
