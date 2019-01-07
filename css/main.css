@@ -1,0 +1,48 @@
+.text {
+  font-family: Georgia, serif;
+  color: #fff;
+  background-color: #495562;
+}
+
+.btn-ghost {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+.btn-ghost:hover {
+  border-color: #efefef;
+  background-color: #efefef;
+  color: #495562;
+}
+
+img {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .button {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    position: relative;
+  }
+
+  .text {
+    position: absolute;
+    bottom: 103px;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+  }
+
+  .btn-ghost {
+    border-color: #fff;
+  }
+
+}
